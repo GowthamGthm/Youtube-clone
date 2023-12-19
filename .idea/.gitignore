@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/jsLibraryMappings.xml
+.idea/*
+/modules.xml
+/inspectionProfiles/Project_Default.xml
+/vcs.xml
+/Youtube Clone -gthm.iml

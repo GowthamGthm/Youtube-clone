@@ -112,11 +112,19 @@ nav {
     display: none;
 }
 
+.left-content-decrease {
+    width: 4%;
+    padding-left: 15px;
+}
+
 
 .rounded {
     border-radius: 50%;
 }
 
+.margin-below {
+    margin-bottom: 15px;
+}
 
 .divider {
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -129,6 +137,10 @@ nav {
     margin-left: 5%;
     margin-bottom: 20px;
     font-size: 16px;
+}
+
+.left-content-flex-row  div.first {
+    margin-top: 10px;
 }
 
 /* main content / right-bar */

@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     $("#menu").click(function () {
 
         var elements = document.getElementsByClassName("left-options-text");
@@ -17,7 +18,21 @@ $(document).ready(function () {
 
         var header = document.getElementById("divider");
         header.classList.toggle("margin-below");
-
-
     });
+
+
+    $('.media-item').click(function() {
+        window.location.href = '/Youtube Clone -gthm/video-player.html';
+        return false;
+    });
+
+    $('.logo').click(function() {
+        window.location.href = '/Youtube Clone -gthm/index.html';
+        return false;
+    });
+
+
+
+
+
 });

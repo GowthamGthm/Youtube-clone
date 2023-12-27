@@ -1,0 +1,58 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.video-player {
+    flex-basis: 65%;
+    margin-left: 0.9%;
+
+}
+
+.video-player video {
+    width: 100%;
+}
+
+.video-item-side-bar {
+    flex-basis: 32%;
+    margin-top: 10px;
+}
+
+.video-item {
+    display: flex;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+.video-thumbnail {
+    width: 168px;
+}
+
+.video-description {
+    padding-left: 10px;
+    margin-top: 1%;
+}
+
+.video-title {
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+.video-channel-name {
+    font-size: 14px;
+    padding-top: 2%;
+}
+
+.video-item:last-child {
+    margin-bottom: 100px;
+}

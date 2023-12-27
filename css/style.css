@@ -94,8 +94,13 @@ nav {
 .left-content-flex-row {
     display: flex;
     justify-content: start;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     align-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 .left-content-flex-row:first-child {
@@ -106,6 +111,10 @@ nav {
     margin-left: 20px;
     align-items: center;
     padding-top: 3px;
+}
+
+.left-content-flex-row:hover {
+    background-color: #cccccc;
 }
 
 .remove-item {
